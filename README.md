@@ -1,4 +1,4 @@
-# TrinityFramework
+# DotErp
 Start
 
 This GitHub repo houses all of the training content for Trinity Framework
