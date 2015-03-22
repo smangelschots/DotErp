@@ -1,0 +1,17 @@
+﻿<#@ template language="C#" debug="true"  #>
+<#@ output extension=".cs" #>
+<#@ parameter name="namespacename" type="System.String" #>
+<#@ parameter name="classname" type="System.String" #>
+
+
+using System;
+using System.Runtime.Serialization;
+
+namespace <#= this.namespacename #>
+{
+	public partial class <#= this.classname #>
+	{
+		public void Initialize(){}
+	}
+}
+
