@@ -1,0 +1,11 @@
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\obj\Debug\OrderIt.Data.csprojResolveAssemblyReference.cache
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\OrderIt.Data.dll.config
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\OrderIt.Data.dll
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\OrderIt.Data.pdb
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\EntityFramework.dll
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\MySql.Data.dll
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\Trinity.dll
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\Trinity.MsSql.dll
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\bin\Debug\EntityFramework.xml
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\obj\Debug\OrderIt.Data.dll
+C:\Users\supportadmin\Documents\GitHub\DotErp\DataLayer Tutorial 1\OrderIt\OrderIt.Data\obj\Debug\OrderIt.Data.pdb
