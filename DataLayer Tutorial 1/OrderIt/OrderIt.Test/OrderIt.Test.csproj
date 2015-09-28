@@ -70,12 +70,12 @@
       <HintPath>..\packages\T4Host.1.0.1\lib\net45\Microsoft.VisualStudio.TextTemplating.VSHost.12.0.dll</HintPath>
     </Reference>
     <Reference Include="OfficeSoft.Common.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\TrinityFramework.1.0.1\lib\net45\OfficeSoft.Common.Contracts.dll</HintPath>
+      <HintPath>..\packages\Trinity.Framework.1.0.2\lib\net45\OfficeSoft.Common.Contracts.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="OfficeSoft.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\TrinityFramework.1.0.1\lib\net45\OfficeSoft.Data.dll</HintPath>
+      <HintPath>..\packages\Trinity.Framework.1.0.2\lib\net45\OfficeSoft.Data.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="OfficeSoft.T4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -86,7 +86,16 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
+    <Reference Include="Trinity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Trinity.Base.1.0.3\lib\net40\Trinity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Trinity.MsSql, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Trinity.MsSql.1.0.0\lib\net40\Trinity.MsSql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">

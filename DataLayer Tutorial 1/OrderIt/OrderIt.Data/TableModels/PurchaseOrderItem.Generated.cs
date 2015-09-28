@@ -1,7 +1,7 @@
 ﻿
 using System;
 using System.Runtime.Serialization;
-using OfficeSoft.Data.Crud;
+using Trinity;
 
 namespace OrderIt.Data.Models	
 {
