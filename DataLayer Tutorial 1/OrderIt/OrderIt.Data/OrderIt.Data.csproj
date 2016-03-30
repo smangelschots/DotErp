@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB100C15-2393-458C-98D0-8E05C90663C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrderIt.Data</RootNamespace>
+    <AssemblyName>OrderIt.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MySql.Data.6.9.6\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Trinity">
+      <HintPath>..\packages\Trinityorm.1.0.1\lib\net40\Trinity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableModels\City.cs" />
+    <Compile Include="TableModels\City.Generated.cs">
+      <DependentUpon>City.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\Contact.cs" />
+    <Compile Include="TableModels\Contact.Generated.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\ContactType.cs" />
+    <Compile Include="TableModels\ContactType.Generated.cs">
+      <DependentUpon>ContactType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\Country.cs" />
+    <Compile Include="TableModels\Country.Generated.cs">
+      <DependentUpon>Country.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\Project.cs" />
+    <Compile Include="TableModels\Project.Generated.cs">
+      <DependentUpon>Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\ProjectType.cs" />
+    <Compile Include="TableModels\ProjectType.Generated.cs">
+      <DependentUpon>ProjectType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\PurchaseOrder.cs" />
+    <Compile Include="TableModels\PurchaseOrder.Generated.cs">
+      <DependentUpon>PurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\PurchaseOrderItem.cs" />
+    <Compile Include="TableModels\PurchaseOrderItem.Generated.cs">
+      <DependentUpon>PurchaseOrderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModels\Vendor.cs" />
+    <Compile Include="TableModels\Vendor.Generated.cs">
+      <DependentUpon>Vendor.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

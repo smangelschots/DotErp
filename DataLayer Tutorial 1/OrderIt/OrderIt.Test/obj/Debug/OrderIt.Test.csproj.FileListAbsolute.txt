@@ -1,0 +1,15 @@
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\OrderIt.Test.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\OrderIt.Test.pdb
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\Microsoft.Build.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\Microsoft.Build.Engine.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\Microsoft.VisualStudio.TextTemplating.12.0.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.12.0.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\OfficeSoft.Common.Contracts.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\OfficeSoft.Data.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\OfficeSoft.T4.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\bin\Debug\OfficeSoft.VisualStudio.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\obj\Debug\OrderIt.Test.csprojResolveAssemblyReference.cache
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\obj\Debug\OrderIt.Test.dll
+C:\Users\supportadmin\Documents\GitHub\TrinityFramework\DataLayer Tutorial 1\OrderIt\OrderIt.Test\obj\Debug\OrderIt.Test.pdb
