@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80CF7E3A-26AE-48E3-B924-9FB44F6587D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2DD808AD-C031-488A-95CD-91219B7E0774}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DotErp.Web", "src\DotErp.Web\DotErp.Web.xproj", "{0B32EF27-EA6C-4610-9585-0F5E0EF0335F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B32EF27-EA6C-4610-9585-0F5E0EF0335F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B32EF27-EA6C-4610-9585-0F5E0EF0335F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B32EF27-EA6C-4610-9585-0F5E0EF0335F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B32EF27-EA6C-4610-9585-0F5E0EF0335F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B32EF27-EA6C-4610-9585-0F5E0EF0335F} = {80CF7E3A-26AE-48E3-B924-9FB44F6587D1}
+	EndGlobalSection
+EndGlobal
