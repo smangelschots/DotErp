@@ -1,7 +1,12 @@
 ﻿
 using System;
 using System.Runtime.Serialization;
+<<<<<<< HEAD
 using OfficeSoft.Data.Crud;
+=======
+using Trinity;
+
+>>>>>>> origin/master
 
 namespace OrderIt.Data.Models	
 {
@@ -24,7 +29,11 @@ namespace OrderIt.Data.Models
                 private string _Geodata;
                 private string _Website;
                 private string _Fax;
+<<<<<<< HEAD
                 private Nullable<Byte[]> _Photo;
+=======
+                private byte[] _Photo;
+>>>>>>> origin/master
                 private string _VatRegistrationNo;
         
 	    		public Guid Id 
@@ -222,7 +231,11 @@ namespace OrderIt.Data.Models
                 }
             }
         }
+<<<<<<< HEAD
 	    		public Nullable<Byte[]> Photo 
+=======
+	    		public byte[] Photo 
+>>>>>>> origin/master
         {
             get
             {

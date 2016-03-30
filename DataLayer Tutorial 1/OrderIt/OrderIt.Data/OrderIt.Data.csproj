@@ -48,7 +48,15 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Trinity">
+<<<<<<< HEAD
       <HintPath>..\packages\Trinityorm.1.0.1\lib\net40\Trinity.dll</HintPath>
+=======
+      <HintPath>..\packages\Trinity.Base.1.0.3\lib\net40\Trinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Trinity.MsSql, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Trinity.MsSql.1.0.0\lib\net40\Trinity.MsSql.dll</HintPath>
+      <Private>True</Private>
+>>>>>>> origin/master
     </Reference>
   </ItemGroup>
   <ItemGroup>
